@@ -1,0 +1,311 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: hsl(0, 0%, 81%);
+}
+.main {
+  width: 80vw;
+  height: 80vh;
+  margin-top: 3%;
+  display: flex;
+}
+.left {
+  width: 80%;
+  height: 100%;
+}
+.right {
+  width: 20%;
+  height: 103.6%;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 20px;
+}
+.topleft {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+}
+.topright {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+}
+.bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+.bottomleft {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.bottomright {
+  width: 70%;
+  height: 100%;
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+}
+#quot {
+  margin-left: 70%;
+  z-index: -1;
+}
+
+/*Daniel*/
+.entetedaniel {
+  display: flex;
+  margin-left: 5%;
+  margin-top: -85px;
+  gap: 200px;
+}
+#avatardaniel {
+  position: absolute;
+  border-radius: 80%;
+  border: solid 3px white;
+  width: 40px;
+  height: 40px;
+}
+.nomdaniel {
+  margin-left: 70px;
+  margin-top: -15px;
+}
+#namedaniel {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+#verifieddaniel {
+  color: #caccd1;
+  margin-top: -10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+/* jonathan*/
+.entetejonathan {
+  display: flex;
+  margin-left: 7%;
+  margin-top: 10%;
+  gap: 20px;
+}
+#avatarjonathan {
+  border-radius: 80%;
+  border: solid 3px white;
+  width: 40px;
+  height: 40px;
+}
+.nomjonathan {
+  margin-left: 5px;
+  margin-top: -15px;
+}
+#namejonathan {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+#verifiedjonathan {
+  color: #caccd1;
+  margin-top: -10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+/*jeannette*/
+.entetejeanette {
+  display: flex;
+  margin-left: 7%;
+  margin-top: 10%;
+  gap: 20px;
+}
+#avatarjeanette {
+  border-radius: 80%;
+  border: solid 3px white;
+  width: 40px;
+  height: 40px;
+}
+.nomjeanette {
+  margin-left: 5px;
+  margin-top: -15px;
+}
+#namejeanette {
+  color: hsl(217, 19%, 35%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+#verifiedjeanette {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: hsl(217, 19%, 35%);
+  margin-top: -10px;
+  font-weight: 500;
+}
+/*patrick*/
+.entetepatrick {
+  display: flex;
+  margin-left: 1%;
+  margin-top: 20px;
+  gap: 20px;
+}
+#avatarpatrick {
+  border-radius: 80%;
+  border: solid 3px white;
+  width: 40px;
+  height: 40px;
+  margin-left: 3%;
+  
+}
+.nompatrick {
+  margin-left: 5px;
+  margin-top: -15px;
+}
+#namepatrick {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+#verifiedpatrick {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: hsl(217, 19%, 35%);
+  margin-top: -10px;
+  font-weight: 500;
+}
+/*kira*/
+.entetekira {
+  display: flex;
+  margin-left: 6%;
+  margin-top: 20px;
+  gap: 20px;
+}
+#avatarkira {
+  border-radius: 80%;
+  border: solid 3px white;
+  width: 40px;
+  height: 40px;
+}
+.namekira {
+  margin-left: 1px;
+  margin-top: -11px;
+}
+#namekira {
+  color: hsl(217, 19%, 35%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+#verifiedkira {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: hsl(217, 19%, 35%);
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 12px;
+}
+/*second text daniel*/
+#secondtextdaniel {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-right: 7%;
+  font-size: 20px;
+  margin-top: -10px;
+}
+/*second text jonathan*/
+#secondtextjonathan {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-right: 7%;
+  font-size: 20px;
+  margin-top: -10px;
+}
+/*second text jeanette*/
+#secondtextjeanette {
+  color: hsl(217, 19%, 35%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-right: 7%;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+/*second text patrick*/
+#secondtextpatrick {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 7%;
+  font-size: 20px;
+  margin-top: -2px;
+}
+/*second text kira*/
+#secondtextkira {
+  color: hsl(217, 19%, 35%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  margin-left: 6%;
+  margin-right: 7%;
+  font-size: 20px;
+  margin-top: -1p;
+}
+/*thirdtext*/
+#thirdtextdaniel {
+  color: hsl(219, 29%, 14%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin-left: 5%;
+  margin-right: 7%;
+  margin-top: -2px;
+  opacity: 0.7;
+}
+#thirdtextjonathan {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin-left: 5%;
+  margin-right: 7%;
+  margin-top: -2px;
+  opacity: 0.7;
+}
+#thirdtextjeanette {
+    color: hsl(219, 29%, 14%);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin-left: 5%;
+    margin-right: 30px;
+    margin-top: -2px;
+    opacity: 0.7;
+    font-size: 15px;
+
+}
+#thirdtextpatrick {
+    color: white;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin-left: 5%;
+    margin-right: 7%;
+    margin-top: -2px;
+    opacity: 0.7;
+
+}
+#thirdtextkira {
+    color: hsl(219, 29%, 14%);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin-left: 9%;
+    margin-right: 7%;
+    margin-top: -2px;
+    opacity: 0.7;
+    font-size: 14px;
+
+}
